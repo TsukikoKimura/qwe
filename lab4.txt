@@ -1,1 +1,31 @@
-3) 
+3) find ~ -type f |wc -l
+100
+
+4)find ~\(-not -type l\) -and \(-not -type d\) >filelist1.txt  
+5)find ~ \( -size +5k \) | xargs ls -l>filelist2.txt
+6) locate bash | wc -l
+7) locate help | wc -l
+8) -----
+9) gzip -c -5 filelist1.txt>filelist1.txt.gz
+gzip -c -7 filelist1.txt>filelist7.txt.gz
+gzip -c -3 filelist1.txt>filelist3.txt.gz
+gzip -l filelist7.txt.gz
+gzip -l filelist3.txt.gz 
+
+         compressed        uncompressed  ratio uncompressed_name
+               1305                4870  73.9% filelist7.txt
+         compressed        uncompressed  ratio uncompressed_name
+               1364                4870  72.6% filelist3.txt
+10)bzip2 -c -5 filelist1.txt>filelist1.txt.bz2
+bzip2 -c -9 filelist1.txt>filelist9.txt.bz2
+bzip2 -c -7 filelist1.txt>filelist7.txt.bz2
+11) -----------
+12)tar -cvf archive1.tar filelist1.txt filelist2.txt 
+13)tar -rvf archive1.tar passwd_example
+14)zip archive2.zip filelist1.txt filelist2.txt passwd_example
+
+	
+updating: filelist1.txt (deflated 74%)
+updating: filelist2.txt (deflated 17%)
+updating: passwd_example (stored 0%)
+
