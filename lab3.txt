@@ -1,0 +1,63 @@
+3) ls -l ~ | sorn -n -k 5
+total 16
+lrwxrwxrwx 1 root root    8 Nov 16 09:07 link1 -> dir/date
+drwxr-xr-x 3 root root 4096 Nov  8 07:10 zadanie
+drwxr-xr-x 3 root root 4096 Nov  8 08:28 qwe
+drwxr-xr-x 3 root root 4096 Nov 16 09:11 dir
+drwxr
+4)cut -d: -f 1 passwd_example>>1.txt
+sort -r 1.txt>>cut_result
+5) cp cut_result cut_result2
+6)diff cut_result cut_result2
+
+1,7c1,7
+< zub
+< wlang
+< sad
+< sasha
+< quin
+< duig
+< duet
+---
+> zubghfghb
+> wlang232
+> sad123sa
+> sashaadsv
+> quinzxcqw
+> duigqe
+> duetqrg
+
+7) cat cut_result2>>cut_result
+8)cat cut_result |sort |uniq >>2.txt
+cat 2.txt >>cut_result
+>cut result
+cat 2.txt>>cut_result
+ 
+
+9)SHELL=/bin/bash
+CREDENTIALS_DIRECTORY=/run/credentials/getty@tty1.service
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=
+XDG_SEAT=seat0
+PWD=/root/qwe/qwe
+LOGNAME=root
+XDG_SESSION_TYPE=tty
+SYSTEMD_EXEC_PID=227
+MOTD_SHOWN=pam
+HOME=/root
+LANG=C.UTF-8
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/system-getty.slice/getty@tty1.service/memory.pressure
+INVOCATION_ID=0b00a9b6f6324fecbd6cc388110d8bd6
+XDG_SESSION_CLASS=user
+TERM=linux
+USER=root
+SHLVL=1
+XDG_VTNR=1
+XDG_SESSION_ID=1
+XDG_RUNTIME_DIR=/run/user/0
+DEBUGINFOD_URLS=https://debuginfod.archlinux.org 
+PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/0/bus
+MAIL=/var/spool/mail/root
+_=/usr/bin/env
+OLDPWD=/root
+

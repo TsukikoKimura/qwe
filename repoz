@@ -1,1 +1,70 @@
-qweqqweqwe
+4) mkdir cat1 
+ cd cat1
+ mkdir cat2/cat3
+cd cat2 --> mkdir cat3
+cd cat1/cat3 -->mkdir cat4
+cd cat1/cat2 -->mkdir cat5
+cd cat1/cat2/cat3 --> mkdir cat6/cat7
+ln -s cat1/cat2/cat3/cat6 cat1/cat8
+5)rmdir
+6)rm cat1/cat8/cat6
+7)mkdir dir 
+ cd  dir
+mkdir date
+8)ln -s dir/date link1
+9).
+├── cat1
+│   ├── cat2
+│   │   ├── cat3
+│   │   │   ├── cat6
+│   │   │   └── cat7
+│   │   └── cat5
+│   └── cat8
+├── dir
+│   └── date
+├── lab1.txt
+├── lab2.txt
+├── link1 -> dir/date
+├── qwe
+│   └── qwe
+│       ├── README.md
+│       └── repoz
+├── test2
+│   └── copy.txt
+│       └── name
+└── zadanie
+    └── arch
+        └── README.md
+
+18 directories, 5 files
+
+10) cd dir
+mv date current_date
+11)cp dir/current
+12).
+├── 123
+├── cat1
+│   ├── cat2
+│   │   ├── cat3
+│   │   │   ├── cat6
+│   │   │   └── cat7
+│   │   └── cat5
+│   └── cat8
+├── dir
+│   └── current_date
+├── lab1.txt
+├── lab2.txt
+├── link1 -> dir/date
+├── qwe
+│   └── qwe
+│       ├── README.md
+│       └── repoz
+├── test2
+│   └── copy.txt
+│       └── name
+└── zadanie
+    └── arch
+        └── README.md
+
+18 directories, 6 files
+

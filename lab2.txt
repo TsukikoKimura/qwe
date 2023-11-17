@@ -1,0 +1,44 @@
+4)mkdir cat1,cat2,cat3,cat4,cat5,cat6,cat7,cat8
+ln -s cat1/cat2/cat3/cat6 cat1/cat8
+5) rmdir 
+6)rm cat1/cat8/cat6
+7)mkdir dir mkdir date
+8) ln -s dir/date link1
+9).
+├── README.md
+├── cat1
+│   ├── cat2
+│   │   ├── cat3
+│   │   │   ├── cat6
+│   │   │   └── cat7
+│   │   └── cat5
+│   └── cat8
+├── dir
+│   └── date
+├── lab1.txt
+├── lab2.txt
+├── link1 -> dir/date
+└── repoz
+
+11 directories, 4 files
+
+10) cd dir 
+mv date current_date
+11).
+├── README.md
+├── cat1
+│   ├── cat2
+│   │   ├── cat3
+│   │   │   ├── cat6
+│   │   │   └── cat7
+│   │   └── cat5
+│   └── cat8
+├── dir
+│   └── current_date
+├── lab1.txt
+├── lab2.txt
+├── link1 -> dir/date
+└── repoz
+
+10 directories, 5 files
+
