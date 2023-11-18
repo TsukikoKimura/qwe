@@ -1,4 +1,4 @@
-touch script.txt
+1)touch script.txt
 bash script.txt
 x=1
 y=1
@@ -6,3 +6,9 @@ read -p "vvedite x=" x
 read -p "vvedite y="y
 add=$(($x+$y))
 if [ $add -lt 0]; then echo "chislo "$add "men'she 0"; elif [ $add -gt 0]; then echo "chislo " $add "bol'she 0"; else echo "chislo " $add "=0"; fi
+2)touch script2.txt
+bash script2.txt
+x="hohoho"
+y='date +%H_%M_%S'
+find ` \( -name "*.txt" \) -and \( -type f \) | xargs tar -cvf "$x.tar"
+mv $x.tar $x$y.tar
