@@ -1,0 +1,8 @@
+touch script.txt
+bash script.txt
+x=1
+y=1
+read -p "vvedite x=" x
+read -p "vvedite y="y
+add=$(($x+$y))
+if [ $add -lt 0]; then echo "chislo "$add "men'she 0"; elif [ $add -gt 0]; then echo "chislo " $add "bol'she 0"; else echo "chislo " $add "=0"; fi
