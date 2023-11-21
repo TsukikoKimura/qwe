@@ -1,0 +1,98 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 08:34 ?        00:00:01 /sbin/init
+root           2       0  0 08:34 ?        00:00:00 [kthreadd]
+root         145       1  0 08:34 ?        00:00:00 /usr/lib/systemd/systemd-journald
+root         184       1  0 08:34 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+root         224       1  0 08:34 ?        00:00:00 /usr/lib/systemd/systemd-logind
+root         228       1  0 08:34 ?        00:00:00 login -- root
+root         260       1  0 08:35 ?        00:00:00 /usr/lib/systemd/systemd --user
+root           3       2  0 08:34 ?        00:00:00 [rcu_gp]
+root           4       2  0 08:34 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 08:34 ?        00:00:00 [slub_flushwq]
+root           6       2  0 08:34 ?        00:00:00 [netns]
+root           8       2  0 08:34 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 08:34 ?        00:00:00 [kworker/u2:0-events_unbound]
+root          11       2  0 08:34 ?        00:00:00 [mm_percpu_wq]
+root          12       2  0 08:34 ?        00:00:00 [kworker/u2:1-events_unbound]
+root          13       2  0 08:34 ?        00:00:00 [rcu_tasks_kthread]
+root          14       2  0 08:34 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          15       2  0 08:34 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          16       2  0 08:34 ?        00:00:00 [ksoftirqd/0]
+root          17       2  0 08:34 ?        00:00:00 [rcu_preempt]
+root          18       2  0 08:34 ?        00:00:00 [rcub/0]
+root          19       2  0 08:34 ?        00:00:00 [migration/0]
+root          20       2  0 08:34 ?        00:00:00 [idle_inject/0]
+root          21       2  0 08:34 ?        00:00:00 [cpuhp/0]
+root          22       2  0 08:34 ?        00:00:00 [kdevtmpfs]
+root          23       2  0 08:34 ?        00:00:00 [inet_frag_wq]
+root          24       2  0 08:34 ?        00:00:00 [kauditd]
+root          25       2  0 08:34 ?        00:00:00 [khungtaskd]
+root          26       2  0 08:34 ?        00:00:00 [oom_reaper]
+root          28       2  0 08:34 ?        00:00:00 [writeback]
+root          29       2  0 08:34 ?        00:00:00 [kcompactd0]
+root          30       2  0 08:34 ?        00:00:00 [ksmd]
+root          31       2  0 08:34 ?        00:00:00 [khugepaged]
+root          32       2  0 08:34 ?        00:00:00 [kintegrityd]
+root          33       2  0 08:34 ?        00:00:00 [kblockd]
+root          34       2  0 08:34 ?        00:00:00 [blkcg_punt_bio]
+root          35       2  0 08:34 ?        00:00:00 [tpm_dev_wq]
+root          36       2  0 08:34 ?        00:00:00 [ata_sff]
+root          37       2  0 08:34 ?        00:00:00 [edac-poller]
+root          38       2  0 08:34 ?        00:00:00 [devfreq_wq]
+root          39       2  0 08:34 ?        00:00:00 [watchdogd]
+root          40       2  0 08:34 ?        00:00:00 [kworker/0:1H-kblockd]
+root          41       2  0 08:34 ?        00:00:00 [kworker/u2:3-events_unbound]
+root          42       2  0 08:34 ?        00:00:00 [kswapd0]
+root          43       2  0 08:34 ?        00:00:00 [kthrotld]
+root          44       2  0 08:34 ?        00:00:00 [acpi_thermal_pm]
+root          45       2  0 08:34 ?        00:00:00 [scsi_eh_0]
+root          46       2  0 08:34 ?        00:00:00 [scsi_tmf_0]
+root          48       2  0 08:34 ?        00:00:00 [mld]
+root          49       2  0 08:34 ?        00:00:00 [ipv6_addrconf]
+root          56       2  0 08:34 ?        00:00:00 [kstrp]
+root          57       2  0 08:34 ?        00:00:00 [zswap-shrink]
+root          58       2  0 08:34 ?        00:00:00 [kworker/u3:0]
+root          59       2  0 08:34 ?        00:00:00 [charger_manager]
+root          93       2  0 08:34 ?        00:00:00 [scsi_eh_1]
+root          94       2  0 08:34 ?        00:00:00 [scsi_tmf_1]
+root          95       2  0 08:34 ?        00:00:00 [scsi_eh_2]
+root          96       2  0 08:34 ?        00:00:00 [scsi_tmf_2]
+root          98       2  0 08:34 ?        00:00:00 [irq/18-vmwgfx]
+root          99       2  0 08:34 ?        00:00:00 [ttm]
+root         110       2  0 08:34 ?        00:00:00 [jbd2/sda1-8]
+root         111       2  0 08:34 ?        00:00:00 [ext4-rsv-conver]
+root         185       2  0 08:34 ?        00:00:00 [psimon]
+root         223       2  0 08:34 ?        00:00:01 [kworker/0:5-cgwb_release]
+root         242       2  0 08:34 ?        00:00:00 [cryptd]
+root         244       2  0 08:34 ?        00:00:00 [cfg80211]
+root         258       2  0 08:35 ?        00:00:00 [psimon]
+root         266       2  0 08:35 ?        00:00:00 [psimon]
+root         320       2  0 08:44 ?        00:00:00 [kworker/0:0-events]
+root         342       2  0 08:49 ?        00:00:00 [kworker/u2:2-events_unbound]
+root         343       2  0 08:49 ?        00:00:00 [kworker/0:1]
+root         229     222  0 08:34 ?        00:00:00 dhcpcd: [privileged proxy]
+root         269     228  0 08:35 tty1     00:00:00 -bash
+root         261     260  0 08:35 ?        00:00:00 (sd-pam)
+root         300     269  0 08:36 tty1     00:00:00 top
+root         301     269  0 08:36 tty1     00:00:00 top
+root         311     269  0 08:38 tty1     00:00:00 top
+root         321     269  0 08:45 tty1     00:00:00 top
+root         345     269 99 08:53 tty1     00:00:00 ps -fu root --sort ppid
+
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         269  0.0  0.2   5284  4224 tty1     Ss   08:35   0:00 -bash
+root         300  0.0  0.2   9784  5760 tty1     T    08:36   0:00 top
+root         301  0.0  0.2   9784  5888 tty1     T    08:36   0:00 top
+root         311  0.0  0.3  11112  6656 tty1     T    08:38   0:00 top
+root         321  0.0  0.1   7936  3968 tty1     T    08:45   0:00 top
+root         346  100  0.2   8508  4224 tty1     R+   08:53   0:00 ps -u
+root         357 33.3  0.2   8508  4096 tty1     R+   08:59   0:00 ps aux
+root         320  0.1  0.0      0     0 ?        I    08:44   0:01 [kworker/0:0-events]
+root           1  0.1  0.6  21224 12700 ?        Ss   08:34   0:01 /sbin/init
+root         359  0.0  0.1   3020  2048 tty1     S+   08:59   0:00 head
+root         358  0.0  0.1  14468  3328 tty1     S+   08:59   0:00 sort -rn -k +3
+root         343  0.0  0.0      0     0 ?        I    08:49   0:00 [kworker/0:1]
+root         342  0.0  0.0      0     0 ?        I    08:49   0:00 [kworker/u2:2-events_unbound]
+root         321  0.0  0.1   7936  3968 tty1     T    08:45   0:00 top
+root         311  0.0  0.3  11112  6656 tty1     T    08:38   0:00 top
+root         301  0.0  0.2   9784  5888 tty1     T    08:36   0:00 top
